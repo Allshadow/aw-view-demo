@@ -1,24 +1,48 @@
 # aw-view
 
-## Project setup
+### use
+
 ```
-yarn install
+npm install aw-view
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+#### 全局引入
+
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+import awView from 'aw-view'
+
+Vue.use(awView)
+
+
 ```
 
-### Lints and fixes files
 ```
-yarn lint
+<aw-demo></aw-demo>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### 按需引入
+
+
+```
+
+import { awDemo } from 'aw-view'
+
+Vue.use(awDemo)
+
+
+```
+
+```
+<aw-demo></aw-demo>
+```
+
+### doc
+
+https://juejin.cn/post/6972153658402144287/
+
+### github demo
+
+https://github.com/Allshadow/aw-view-demo
+
+
